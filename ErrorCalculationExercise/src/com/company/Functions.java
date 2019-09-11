@@ -17,6 +17,4 @@ public class Functions {
     public static double getDifferenceError(double a, double b, double x, double y){
         return Math.abs((a - b)-(x - y));
     }
-
-
 }
