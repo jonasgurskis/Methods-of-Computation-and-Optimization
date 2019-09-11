@@ -1,5 +1,4 @@
 package com.company;
-
 import java.util.Scanner;
 
 public class Main {
@@ -26,6 +25,5 @@ public class Main {
                 Functions.getAmountError(value.a, value.b, value.x, value.y));
         System.out.println("The DIFFERENCE error is: " +
                 Functions.getDifferenceError(value.a, value.b, value.x, value.y));
-
     }
 }
